@@ -1,0 +1,125 @@
+/* Main Container */
+.profile-container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+.g-0{
+    display: flex;
+}
+  /* Card Styling */
+  .profile-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .info-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  /* Left Section */
+  .profile-left {
+    width: 350px;
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .edit-icon {
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 1;
+  }
+  .button{
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 24px;
+  }
+
+  .profile-right{
+    width: 400px;
+  }
+  
+  /* Right Section */
+  .profile-info {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+  }
+  
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+    margin-bottom: 0;
+  }
+  .text-muted{
+    color: black;
+  }
+  .info-row {
+    margin-top: 0;
+    justify-content: space-between;
+  }
+  .info-row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+.submit{
+  background-color: black;
+  padding: 15px 15px;
+  border-radius: 24px;
+  color: white;
+  margin-right: 10px;
+}
+.cancel-btn{
+  background-color: black;
+  padding: 15px 15px;
+  border-radius: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.password{
+  border-radius: 24px;
+  padding: 6px 10px;
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+}
+.Password{
+  color: black;
+}

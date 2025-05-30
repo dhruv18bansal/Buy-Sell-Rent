@@ -1,0 +1,61 @@
+
+.itemname{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.itemdetail {
+    display: flex; /* Enables flexbox */
+    justify-content:center; /* Distributes boxes with space between */
+    align-items: flex-start; /* Aligns items to the top */
+    gap: 50px; /* Adds space between the two boxes */
+    padding: 20px; /* Optional: Adds a border around the container */
+    border-radius: 8px;/* Optional: Light background */
+}
+
+.type {
+    width: 30%; /* Makes each box take 50% of the container */
+    height: 200px;/* Makes both boxes take equal width */
+    padding: 15px;
+    border: 1px solid #ccc; /* Optional: Adds border around each box */
+    border-radius: 8px;
+    color: white;
+    background-color: #000000; /* Optional: White background for each box */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+}
+
+.destitle, .seller {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+name{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.no{
+    color:#000000;
+    font-size: 1.6rem;
+    margin-left: 800px;
+}
+.add-to-cart{
+    width: 50%;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 460px;
+}
+@media (max-width: 768px) {
+    .itemdetail {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+        gap: 10px;
+    }
+}
+

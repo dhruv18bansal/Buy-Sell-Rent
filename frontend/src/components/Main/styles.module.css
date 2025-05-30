@@ -1,0 +1,121 @@
+/* styles.module.css */
+
+/* Container for the profile page */
+.profileContainer {
+    max-width: 500px; /* Limits the maximum width of the profile container */
+    margin: 20px auto; /* Centers the container horizontally with margin */
+    padding: 30px; /* Adds padding around the container */
+    border: 1px solid #e0e0e0; /* Adds a subtle border around the container */
+    border-radius: 12px; /* Rounds the corners of the container */
+    background-color: #ffffff; /* Sets a white background color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a soft shadow to the container */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers items horizontally */
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center; /* Centers the main heading */
+    color: #000000; /* Sets a teal color for the heading */
+    font-size: 3.5em; /* Increases font size for the main heading */
+    margin: 0 0 20px 0; /* Removes default margin and adds space below */
+    font-family: 'Georgia', serif; /* Adds a more elegant font */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 20px; /* Sets a standard font size */
+    margin: 20px 0; /* Adds vertical spacing between paragraphs */
+    color: #555; /* Sets a medium-dark color for the text */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%; /* Makes inputs full width of the parent container */
+    padding: 15px; /* Adds padding inside the input fields */
+    margin-top: 10px; /* Adds a small margin above inputs */
+    border: 1px solid #ec0f0f; /* Adds a teal border to inputs */
+    border-radius: 24px; /* Rounds the corners of the inputs */
+    box-sizing: border-box; /* Ensures padding and borders are included in the total width */
+    font-family: 'Arial', sans-serif;
+    font-size: 20px; /* Consistent font for inputs */
+}
+
+/* Button Styles */
+button {
+    padding: 12px 20px; /* Adds padding inside buttons */
+    margin-top: 15px; /* Adds margin above buttons */
+    border: none; /* Removes default border */
+    border-radius: 24px; /* Rounds the corners of buttons */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 16px; /* Sets a standard font size */
+    font-family: 'Arial', sans-serif; /* Consistent font for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+/* Primary Button */
+button[type="button"] {
+    background-color: #ffffff; /* Sets an orange background for the edit button */
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    width: 100%;
+    
+}
+button[type="button-save"]{
+    background-color: #c9c9c9; /* Sets an orange background for the edit button */
+    color: rgb(0, 0, 0);
+    border: 1px solid #c9c9c9;
+    width: 100%;
+}
+/* Save Button */
+button[type="submit"] {
+    padding: 18px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #000000; /* Sets a green background for the save button */
+    color: white; /* Sets the text color to white */
+}
+
+/* Logout Button */
+.white_btn {
+    background-color: white; /* Sets the background color to white */
+     /* Adds a border matching the text color */
+}
+
+/* Hover effects for buttons */
+button:hover {
+    opacity: 0.9; /* Reduces opacity on hover */
+    transform: translateY(-2px); /* Adds a slight lift effect on hover */
+}
+
+/* Flexbox Layout for Buttons */
+.buttonContainer {
+    display: flex; /* Enables flexbox layout for buttons */
+    justify-content: space-between; /* Distributes space between buttons */
+    width: 100%; /* Makes button container full width */
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .profileContainer {
+        padding: 20px; /* Reduces padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Reduces font size of the main heading */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Reduces font size of the subheading */
+    }
+
+    button {
+        width: 100%; /* Makes buttons full width on smaller screens */
+        margin-top: 10px; /* Adds margin between buttons */
+    }
+}
