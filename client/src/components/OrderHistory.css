@@ -1,0 +1,151 @@
+/* Tab Container */
+.orderhistory{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tab-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Space between buttons */
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Tab Buttons */
+.tab-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #222; /* Dark gray button */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Active Tab */
+.tab-btn.active {
+    background-color: #000000; /* Blue active tab */
+    transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Hover Effect */
+.tab-btn:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+}
+/* Title Styling */
+.pending-title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Orders Container */
+.pending-orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Spacing between cards */
+    padding: 20px;
+}
+
+/* Individual Order Card */
+.pending-order-card {
+    background-color: #000000; /* Dark Gray */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 350px; /* Adjust card width */
+}
+
+
+/* OTP Button */
+.otp-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on OTP Button */
+.otp-btn:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* OTP Text */
+.otp-text {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Title Styling */
+.bought-title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Orders Container */
+.bought-orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Spacing between cards */
+    padding: 20px;
+}
+
+/* Individual Order Card */
+.bought-order-card {
+    background-color: #000000; /* Dark Gray */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 350px; /* Adjust card width */
+}
+
+/* Title Styling */
+.sold-title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Orders Container */
+.sold-orders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* Spacing between cards */
+    padding: 20px;
+}
+
+/* Individual Order Card */
+.sold-order-card {
+    background-color: #000000; /* Dark Gray */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 350px; /* Adjust card width */
+}
+
+
+
+
+
+

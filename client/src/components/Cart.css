@@ -1,0 +1,145 @@
+.empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+     /* Full viewport height */
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Center the cart and make items appear side by side */
+.cart-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if items exceed container width */
+    justify-content: center; /* Centers the items */
+    gap: 20px; /* Adds spacing between items */
+    padding: 20px;
+}
+.itemnamecart{
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+/* Styling for individual cart items */
+.cart-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 350px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+}
+
+/* Description styling */
+.description {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* Price styling */
+.price {
+    font-weight: bold;
+    color: #ffffff;
+}
+.mycart{
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Remove button */
+/* Remove button styling */
+.remove-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover effect: Change background, add shadow, and scale up */
+.remove-btn:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.1); /* Slightly enlarge */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); /* Red glow */
+}
+
+/* Click effect: Shrinks slightly when pressed */
+.remove-btn:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+.totalcostcart{
+    font-size: 1.6rem;
+    color: #000000;
+    text-align: center;
+}
+/* Center the final order container */
+.finalorder {
+    display: flex;
+    flex-direction: column; /* Stack button and message */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+     /* Full viewport height */
+}
+
+/* Final Order button styling */
+.finalordercart {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #000000; /* Orange color */
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.finalordercart:hover {
+    background-color: #000000; /* Darker shade */
+    transform: scale(1.1); /* Slightly enlarge */
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3); /* Glow effect */
+}
+
+/* Click effect */
+.finalordercart:active {
+    transform: scale(0.95); /* Shrinks slightly */
+    box-shadow: none;
+}
+
+/* Success message styling */
+.order-success {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    opacity: 1;
+    transform: translateY(10px);
+    animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+/* Fade-in and slide-up animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
