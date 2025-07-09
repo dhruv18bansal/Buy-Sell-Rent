@@ -46,7 +46,7 @@ router.post("/", async (req, res) => {
 	}
 });
 const verifyRecaptcha = async (recaptchaToken) => {
-	console.log(recaptchaToken);
+	// console.log(recaptchaToken);
     const secretKey = "6LdOfMoqAAAAACtG6XSb5Dmrdm_baqv-GQIj_yn1"; // Replace with your reCAPTCHA secret key
     const url = "https://www.google.com/recaptcha/api/siteverify";
 
